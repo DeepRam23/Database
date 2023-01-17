@@ -7,3 +7,11 @@ category varchar(120),
 sub_category varchar(100)
 )
 -----------------------
+create table person_detail (id int, person_id varchar (50), 
+first_name varchar(120), surname varchar (40),
+dob varchar(10),
+firstline_address varchar(130),
+city varchar(50),
+postcode varchar(30) 
+)
+----------------------------------------------
