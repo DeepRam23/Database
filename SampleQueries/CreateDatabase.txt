@@ -1,4 +1,5 @@
-Project Linux
+Create Database
 -----------------
+create database sqltutorial;
 
 
