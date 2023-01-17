@@ -1,3 +1,9 @@
 Create Table
 ---------------
 
+create table category (
+id int,
+category varchar(120),
+sub_category varchar(100)
+)
+-----------------------
