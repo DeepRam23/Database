@@ -24,3 +24,11 @@ city varchar(230),
 );
 
 --------------------------------------------------------
+create table bank_details (id int,
+firstname varchar (220),
+surname varchar (340),
+card_number varchar (100),
+expire_date varchar (250),
+card_cvv int 
+);
+-----------------------------------------------------
