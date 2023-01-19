@@ -32,3 +32,12 @@ expire_date varchar (250),
 card_cvv int 
 );
 -----------------------------------------------------
+create table items(
+id int,
+gender_type varchar(20),
+official_wear varchar(110),
+occasional_wear varchar(340),
+gym_wear varchar(240),
+bottom_wear varchar(250)
+);
+----------------------------------------------------
