@@ -15,3 +15,12 @@ city varchar(50),
 postcode varchar(30) 
 )
 ----------------------------------------------
+create table person (
+personid int,
+lastname varchar(230),
+firstname(240),
+address varchar(340),
+city varchar(230),
+);
+
+--------------------------------------------------------
