@@ -33,6 +33,37 @@ card_cvv int
 );
 -----------------------------------------------------
 create table items(
+-----------------------------------------------
+
+
+get all records from bank details table
+select * from bank_details;
+select * from category;
+select * from contact_information;
+select * from items;
+select * from person_detail;
+
+alter table bank detail to add person id 
+alter table bank_details add column person_id int;
+---------------------------------------------------------------------
+insert data into person detail table=
+person id=1,firstname=deepjyoti, surname= ram, dob=20.5.1986, first line= 07 ball road, city= sheffield, postcode=s60,
+insert into person_detail
+ (id,person_id,first_name,surname,dob,firstline_address,city,postcode)
+ values
+ (1,1,'deepjyoti','ram','20-5-1986','07 ball road','sheffied','s60' ); 
+======================================================================================================================
+
+delete deepjyoti record from person detail table
+delete from person_detail where id=1;
+------------------------------------------------------
+
+
+
+
+
+
+
 id int,
 gender_type varchar(20),
 official_wear varchar(110),
