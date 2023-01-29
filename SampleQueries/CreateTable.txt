@@ -85,7 +85,10 @@ values
 ();
 --------------------------------------------
 
-
+insert into contact_information
+(id,person_id,email_id,phone_number)
+values
+(1,1,'deeprm@gmail.com',7931789);
 
 
 
