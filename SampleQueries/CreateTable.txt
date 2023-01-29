@@ -89,11 +89,14 @@ insert into contact_information
 (id,person_id,email_id,phone_number)
 values
 (1,1,'deeprm@gmail.com',7931789);
+----------------------------------------
 
 
-
-
-
-
+insert into bank_details
+(id,person_id,firstname,surname,card_number,expire_date,card_cvv)
+value(1,1,'deepjyoti','ram',25814736912,2028-04-02,203);
 
 ----------------------------------------------------
+
+
+
