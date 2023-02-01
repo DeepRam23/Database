@@ -97,6 +97,10 @@ insert into bank_details
 value(1,1,'deepjyoti','ram',25814736912,2028-04-02,203);
 
 ----------------------------------------------------
+alter table bank detail to add person id 
+alter table bank_details add column boolean int;
 
-
+select* from person_detail
+order by person_id;
+===========================================
 
