@@ -107,3 +107,9 @@ order by person_id;
 select* from person_detail
 where first_name
 like '%deep%';
+-----------------------------=----------
+
+
+select person_id, id, hsbc_card,firstname, surname, lloyds_card,barclay_card, hsbc_expire, lloyds_expire, barclay_expire
+ from bank_details
+ where person_id in (1,2,3,4);
