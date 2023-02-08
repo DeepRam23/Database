@@ -113,3 +113,25 @@ like '%deep%';
 select person_id, id, hsbc_card,firstname, surname, lloyds_card,barclay_card, hsbc_expire, lloyds_expire, barclay_expire
  from bank_details
  where person_id in (1,2,3,4);
+ 
+ ---------------------------------------------------------------
+ 
+INNERJOIN 
+ SELECT*
+FROM bank_details
+INNER JOIN person_detail ON bank_details.person_id = person_detail.person_id;
+------------------------------------------------------------------------------------
+
+left join
+SELECT*
+FROM bank_details
+left join person_detail ON bank_details.person_id = person_detail.person_id;
+----------------------------------------------------------------------------------
+
+right join
+
+
+SELECT*
+FROM bank_details
+right join person_detail ON bank_details.person_id = person_detail.person_id;
+========================================================================================
