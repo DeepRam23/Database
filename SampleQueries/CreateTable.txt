@@ -135,3 +135,9 @@ SELECT*
 FROM bank_details
 right join person_detail ON bank_details.person_id = person_detail.person_id;
 ========================================================================================
+
+
+to find the details of the customers 
+select firstname, hsbc_card, lloyds_card, barclay_card
+from bank_details;
+=====================================================================================
