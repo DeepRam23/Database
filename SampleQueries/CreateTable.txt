@@ -141,3 +141,7 @@ to find the details of the customers
 select firstname, hsbc_card, lloyds_card, barclay_card
 from bank_details;
 =====================================================================================
+
+select distinct lloyds_card, lloyds_expire, lloyds_cvv, id, firstname
+from bank_details;
+========================================================================
